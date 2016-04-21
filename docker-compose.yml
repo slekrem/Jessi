@@ -1,4 +1,4 @@
-version: ‘2‘
-services:
-    GitLab:
-        image: gitlab/gitlab-ce
+GitLab:
+    image: gitlab/gitlab-ce
+    ports:
+     - "80:53000"
