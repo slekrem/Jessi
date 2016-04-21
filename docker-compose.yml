@@ -1,4 +1,4 @@
 GitLab:
     image: gitlab/gitlab-ce
     ports:
-     - "80:53000"
+     - "9000:80"
