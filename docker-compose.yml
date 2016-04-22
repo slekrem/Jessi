@@ -2,3 +2,9 @@ GitLab:
     image: gitlab/gitlab-ce
     ports:
      - "9000:80"
+
+CICD:
+    image: jenkins
+    ports:
+     - "9001:8080"
+     - "9002:50000"
